@@ -1,4 +1,11 @@
+## The corpus
+
+We have a corpus consisting of two parts: The first part contains book chapters of books that were originally written in Hebrew, and the second part contains book chapters that were translated from other languages into Hebrew. Each chapter is annotated with the gender and age of the author, the publisher, gender of the translator (for translations), and the source language (for translations). 
+The sentences in the corpus are annotated with a set of morphological and syntactic features, such as lemma, pos tag or binyan.
+
 ## Sanity check gender classifier
+
+In a first attempt we are trying to build a classifier that can distinguish between the genders of authors. For now we only have a binary classifier that was trained only on original texts. In a next step we are planning to train a 4-way classifier on the translated data.
 
 * **File**: genderClass\_sanity.py
 * **How to run**: 
